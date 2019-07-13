@@ -10,7 +10,7 @@ const  reducer=( state=initialState, action ) => {
 				count: state.count+action.payload
 			}
 		// Fill in the body of this case
-		case DECREMENT:
+		case DECREMENT:	
 			return {
 				...state,
 				count: state.count-action.payload
